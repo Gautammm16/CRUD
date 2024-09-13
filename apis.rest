@@ -1,0 +1,12 @@
+# GET request to fetch all users
+ GET http://localhost:3000/api/users/
+
+# POST request to create a new user
+POST http://localhost:3000/api/users/
+Content-Type: application/json
+
+{
+    "email": "whyuwanttoknow@gmail.com",
+    "name": "John Doe",
+    "password": "hellothisispassword"
+}
